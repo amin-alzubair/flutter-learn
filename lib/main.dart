@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'login_screen.dart';
+import 'messenger_screen.dart';
 
 void main() {
   runApp(const Myapp());
@@ -14,7 +15,7 @@ class Myapp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-       home: LoginScreen(),
+       home: MessengerScreen(),
     );
     // var menuIcon = Icons.menu;
     // var titl = 'First App';
